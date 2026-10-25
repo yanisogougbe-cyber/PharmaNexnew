@@ -1,0 +1,19 @@
+PharmaNex — application installable (prototype), version 2026-10-25-f
+
+FICHIERS (tous au même niveau, à la RACINE du dépôt, sans sous-dossier) :
+  index.html, manifest.webmanifest, sw.js, etat.html,
+  icon-192.png, icon-512.png, icon-maskable-512.png, apple-touch-icon.png
+
+1. Décompressez le .zip : GitHub ne décompresse PAS un .zip téléversé.
+2. GitHub > Add file > Upload files : sélectionnez TOUS les fichiers ci-dessus, puis Commit.
+3. Settings > Pages > Deploy from a branch > main / (root). Attendez 2 à 10 minutes
+   (onglet Actions : « pages build and deployment » doit être vert).
+4. Sur le téléphone, désactivez « Version pour ordinateur » (Chrome > menu ⋮).
+5. Ouvrez  https://VOTRE-NOM.github.io/VOTRE-DEPOT/etat.html : le premier encadré doit être vert.
+6. Ouvrez la page d'accueil, attendez quelques secondes, puis Chrome > menu ⋮ > « Installer l'application ».
+   Supprimez d'abord l'ancien raccourci de l'écran d'accueil.
+7. iPhone : Safari > Partager > « Sur l'écran d'accueil ».
+
+Les comptes et commandes sont conservés dans le navigateur de l'appareil (pas de base de données partagée).
+Comptes de démonstration : client@demo.bj, pharmacie@demo.bj, hopital@demo.bj.
+Suppression d'un compte : menu > « Supprimer mon compte ».
